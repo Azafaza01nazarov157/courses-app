@@ -43,7 +43,7 @@ This Course Management System is designed to facilitate interaction between admi
 ### Installation
 1. Clone the repository:
    ```
-[   git clone https://github.com/yourusername/course-management-app.git](https://github.com/Azafaza01nazarov157/courses-app.git)
+   git clone https://github.com/Azafaza01nazarov157/course-management-app.git
    ```
 
 2. Open the project in Android Studio:
