@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/admin_group" android:visible="false">
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Manage Courses" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Manage Users" />
+        <item
+            android:id="@+id/nav_enrollments"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Manage Enrollments" />
+    </group>
+    
+    <group android:id="@+id/teacher_group" android:visible="false">
+        <item
+            android:id="@+id/nav_my_courses"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="My Courses" />
+        <item
+            android:id="@+id/nav_assignments"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Manage Assignments" />
+        <item
+            android:id="@+id/nav_grading"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Grade Assignments" />
+    </group>
+    
+    <group android:id="@+id/student_group" android:visible="false">
+        <item
+            android:id="@+id/nav_enrolled_courses"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="My Courses" />
+        <item
+            android:id="@+id/nav_my_assignments"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="My Assignments" />
+        <item
+            android:id="@+id/nav_my_grades"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="My Grades" />
+    </group>
+    
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu> 
